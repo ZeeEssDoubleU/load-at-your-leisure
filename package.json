@@ -1,6 +1,6 @@
 {
   "name": "load-at-your-leisure",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React, progressive, lazy image loader sourced from Cloudinary.",
   "author": "ZeeEssDoubleU",
   "license": "MIT",

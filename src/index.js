@@ -14,7 +14,7 @@ import useLayoutEffect from './utils/useIsomorphicLayoutEffect'
 export default function ProgressiveLazyImage({
   imageUrl_cloudinary,
   imageUrl_low,
-  url_img_high,
+  imageUrl_high,
   image
 }) {
   const [image_loaded, setImageLoaded] = useState(false)
@@ -34,7 +34,7 @@ export default function ProgressiveLazyImage({
     // if no cloudinary url, check for supplied image (high quality) in props
     const image_high = imageUrl_cloudinary
       ? `${imageUrl_cloudinary}/w_${imageContainerWidth_125x},dpr_auto,q_auto/${image.hash}${image.ext}`
-      : url_img_high
+      : imageUrl_high
 
     // full image quality determined by container dimensions above
     setImageUrl(image_high)
@@ -75,7 +75,7 @@ ProgressiveLazyImage.propTypes = {
   image: PropTypes.object,
   imageUrl_cloudinary: PropTypes.string,
   imageUrl_low: PropTypes.string,
-  url_img_high: PropTypes.string
+  imageUrl_high: PropTypes.string
 }
 
 //* ***********
