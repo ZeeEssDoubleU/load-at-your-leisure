@@ -1,13 +1,13 @@
-# react-leisurely-load-cloud-image
+# load-at-your-leisure
 
 > A React, progressive, lazy image loader sourced from Cloudinary.
 
-[![NPM](https://img.shields.io/npm/v/react-leisurely-load-cloud-image.svg)](https://www.npmjs.com/package/react-leisurely-load-cloud-image) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/load-at-your-leisure.svg)](https://www.npmjs.com/package/load-at-your-leisure) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-leisurely-load-cloud-image
+npm install --save load-at-your-leisure
 ```
 
 ## Usage
@@ -15,8 +15,8 @@ npm install --save react-leisurely-load-cloud-image
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-leisurely-load-cloud-image'
-import 'react-leisurely-load-cloud-image/dist/index.css'
+import MyComponent from 'load-at-your-leisure'
+import 'load-at-your-leisure/dist/index.css'
 
 class Example extends Component {
   render() {

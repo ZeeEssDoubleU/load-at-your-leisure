@@ -1,10 +1,10 @@
 {
-  "name": "react-leisurely-load-cloud-image",
-  "version": "1.0.0",
+  "name": "load-at-your-leisure",
+  "version": "1.0.1",
   "description": "A React, progressive, lazy image loader sourced from Cloudinary.",
   "author": "ZeeEssDoubleU",
   "license": "MIT",
-  "repository": "ZeeEssDoubleU/react-leisurely-load-cloud-image",
+  "repository": "ZeeEssDoubleU/load-at-your-leisure",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
