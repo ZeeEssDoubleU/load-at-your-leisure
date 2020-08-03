@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import ProgressiveLazyImage from '.'
 
-describe('ExampleComponent', () => {
+describe('ProgressiveLazyImage', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(ProgressiveLazyImage).toBeTruthy()
   })
 })

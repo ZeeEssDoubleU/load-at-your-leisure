@@ -23,8 +23,21 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "prop-types": "^15.7.2",
+    "react-lazyload": "^3.0.0",
+    "styled-components": "^5.1.1"
+  },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-lazyload": "^3.0.0",
+    "styled-components": "^5.1.1"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
